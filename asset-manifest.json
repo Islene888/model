@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/EmotionEval_Chat-model-evaluate/static/css/main.dd1ea7b7.css",
+    "main.js": "/EmotionEval_Chat-model-evaluate/static/js/main.1ff63594.js",
+    "index.html": "/EmotionEval_Chat-model-evaluate/index.html",
+    "main.dd1ea7b7.css.map": "/EmotionEval_Chat-model-evaluate/static/css/main.dd1ea7b7.css.map",
+    "main.1ff63594.js.map": "/EmotionEval_Chat-model-evaluate/static/js/main.1ff63594.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd1ea7b7.css",
+    "static/js/main.1ff63594.js"
+  ]
+}
