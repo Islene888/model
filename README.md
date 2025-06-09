@@ -21,7 +21,6 @@
 
 ## 🌟 Highlights
 
-* **End-to-End Automation**: Supports full-process evaluation and visualization, from data ingestion and Spark-based batch parallel computation to frontend analytics dashboards.
 * **High-Concurrency Big Data**: PySpark provides distributed/parallel data processing and can be easily scaled to millions of conversation logs and model evaluations.
 * **Extensible Algorithms**: Integrated BERTScore for semantic relevance and SnowNLP for sentiment analysis; customizable NLP metrics supported.
 * **Enterprise-Grade API**: FastAPI + Nginx ensures secure, high-performance, production-ready APIs for business and research.
@@ -106,13 +105,7 @@ python main.py  # Or submit evaluation tasks via FastAPI
 
 > Full metrics include semantic score, sentiment trends, session start/end emotion, and support batch comparison and visualization for multiple models.
 
----
 
-## 💼 Business & Team Value
-
-* Empowers enterprise AIGC/chatbot teams to automatically quantify emotional uplift and model performance.
-* Enables continuous experiments and standardized pre-launch evaluation and reporting.
-* **Spark-based distributed computing and cloud-native architecture** significantly improve production efficiency and team collaboration, while reducing ops and development costs.
 
 
 
