@@ -99,8 +99,8 @@ python main.py  # 或通过 FastAPI 提交评测任务
 
 ### 3. 可视化与报告
 
-* 前端访问：[http://your-ec2-ip/emo-eval-frontend/](http://your-ec2-ip/emo-eval-frontend/)
-* 后端 API: [http://your-ec2-ip/evaluate/](http://your-ec2-ip/evaluate/)...
+* 前端访问：[http://your-ec2-ip/emo-eval-frontend/](http://3.128.173.187/emo-eval-frontend/)
+* 后端 API: [http://your-ec2-ip/evaluate/](http://3.145.56.68:8000/docs#/default/evaluate_file_evaluate_file_post)..
 * 评测结果可自动导入 BI/看板系统
 
 
