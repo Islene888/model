@@ -47,30 +47,6 @@
 * **业务数据驱动**：评测结果可对接 Metabase、Tableau 等 BI，暂未实施。
 
 
-## 🏗️ 系统架构图 / System Architecture
-
-```mermaid
-flowchart LR
-    FE[React + Antd Web UI]
-    Nginx[Nginx Gateway]
-    API[FastAPI REST API]
-    Spark[PySpark Pipeline]
-    Model[NLP Models (BERT, SnowNLP)]
-    BI[BI Dashboard/Metabase]
-    AWS[AWS EC2 Cluster]
-
-    FE-->|HTTPS|Nginx
-    Nginx-->|/emo-eval-frontend/|FE
-    Nginx-->|/evaluate/|API
-    API-->|任务调度|Spark
-    Spark-->|模型评测|Model
-    Spark-->|Parquet/CSV|BI
-    Nginx-->|托管|AWS
-    API-->|托管|AWS
-    Spark-->|托管|AWS
-```
-
-
 ## 🏁 快速开始 / Quick Start
 
 ### 1. 数据准备
@@ -97,11 +73,9 @@ python main.py  # 或通过 FastAPI 提交评测任务
 
 > 大数据量下推荐配置 Spark/YARN/EMR 等分布式集群。
 
-### 3. 可视化与报告
+### 3. 网站demo
 
-* 前端访问：[http://your-ec2-ip/emo-eval-frontend/](http://3.128.173.187/emo-eval-frontend/)
-* 后端 API: [http://your-ec2-ip/evaluate/](http://3.145.56.68:8000/docs#/default/evaluate_file_evaluate_file_post)..
-* 评测结果可自动导入 BI/看板系统
+* 访问：[http://your-ec2-ip/emo-eval-frontend/](http://3.128.173.187/emo-eval-frontend/)
 
 
 ## 📦 依赖环境 / Requirements
