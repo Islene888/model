@@ -228,7 +228,7 @@ export default function App() {
       <div style={{ textAlign: 'center', marginTop: 34, color: '#adb2be', fontSize: 15 }}>
         © {new Date().getFullYear()} Model Judge | Powered by Ant Design & Recharts
         <span style={{ marginLeft: 16 }}>
-          <a href="https://github.com/Islene888/EmotionEval_Chat-model-evaluate" target="_blank" rel="noopener noreferrer" style={{ color: '#5672e3' }}>
+          <a href="https://github.com/Islene888/EmotionEval" target="_blank" rel="noopener noreferrer" style={{ color: '#5672e3' }}>
             GitHub
           </a>
         </span>
