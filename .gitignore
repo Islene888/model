@@ -28,5 +28,6 @@ venv/
 
 
 node_modules/
+
 *.pack
 .cache/
